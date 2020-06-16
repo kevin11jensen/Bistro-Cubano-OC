@@ -19,7 +19,7 @@ const FooterSection = styled.section `
     height: 2vh;
     p {
         text-align: center;
-        font-size: 1.6rem;
+        font-size: 1.2rem;
         background-color: var(--altBg);
         padding: 3%;
         
