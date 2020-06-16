@@ -22,10 +22,11 @@ const HeroContainer = styled.div `
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 3% 1%;
+    padding: 10% 1% 1% 1%;
     h2 {
         font-family: var(--fontMain);
         font-size: 5rem;
+        font-style: italicize;
         color: var(--white);
         margin: 2%;
     }

@@ -30,9 +30,11 @@ export default function MiddleSection() {
             <div className = 'oregonCity'>
                 <img src = {oregonCity} alt = 'store front' />
                 <div className = 'oregoncity-text'>
-                <h2>In the heart of Old Town Oregon City</h2>
-                <p>Oregon City Maint Street is the embodiment of what it means to be a Main Street. It brings the Oregon City community together and we have the great opportunity to give you a great Cuban experience.</p>
-                <button>DIRECTIONS</button>
+                    <h2>In the heart of Old Town Oregon City</h2>
+                    <p>Oregon City Maint Street is the embodiment of what it means to be a Main Street. It brings the Oregon City community together and we have the great opportunity to give you a great Cuban experience.</p>
+                    
+                    <button>DIRECTIONS</button>
+                    
                 </div>
                 
             </div>
@@ -46,7 +48,7 @@ const MiddleContainer = styled.section `
     align-items: center;
     justify-content: center;
     background: var(--bg);
-    
+    padding-bottom: 6%;
     .middle-header {
         display: flex;
         flex-direction: column;
@@ -55,17 +57,17 @@ const MiddleContainer = styled.section `
         border-bottom: .5rem dotted var(--red);
         color: var(--white);
         width: 75%;
-        margin-bottom: 2%;
+        margin-bottom: 5%;
         h2 {
             font-family: var(--fontMain);
-            padding: 1%;
+            padding: 3% 1% 1% 1%;
             text-align: center;
             font-size: 3rem;
             
         }
         h4 {
             font-family: var(--fontBody);
-            padding: 3%;
+            padding: 3% 3% 5% 3%;
             text-align: center;
         }
     }
@@ -78,15 +80,16 @@ const MiddleContainer = styled.section `
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            width: 50%;
+            width: 40%;
             h2 {
                 font-family: var(--fontMain);
-                font-size: 3rem;
+                font-size: 4rem;
                 margin: 2%;
             }
             p {
                 font-family: var(--fontBody);
                 margin: 3%;
+                line-height: 2rem;
             }
         }
     }
@@ -95,22 +98,24 @@ const MiddleContainer = styled.section `
         width: 75%;
         justify-content: space-around;
         img {
-            width: 50%;
+            width: 49%;
         }
         .staff-text {
             display: flex;
             flex-direction: column;
             justify-content: center;
-            align-items: center;
             
+            width: 40%;
             h2 {
                 font-family: var(--fontMain);
-                font-size: 3rem;
+                font-size: 4rem;
                 margin: 2%;
+                text-align: left;
             }
             p {
                 font-family: var(--fontBody);
                 margin: 3%;
+                line-height: 2rem;
             }
         }
     }
@@ -118,20 +123,36 @@ const MiddleContainer = styled.section `
         display: flex;
         width: 75%;
         justify-content: space-around;
+        img {
+            width: 44%;
+        }
         .oregoncity-text {
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            width: 50%;
+            width: 40%;
             h2 {
                 font-family: var(--fontMain);
-                font-size: 3rem;
+                font-size: 4rem;
                 margin: 2%;
             }
             p {
                 font-family: var(--fontBody);
                 margin: 3%;
+                line-height: 2rem;
+            }
+            button {
+                font-family: var(--fontHero);
+                background: none;
+                border: 1px solid var(--red);
+                color: var(--white);
+                padding: 3% 4%;
+                font-size: 1.2rem;
+                margin: 2%;
+                &:hover {
+                    background-color: var(--red);
+                }
             }
         }
     }
