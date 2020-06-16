@@ -13,5 +13,12 @@ export default function Reviews() {
 }
 
 const ReviewsSection = styled.section `
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    h1 {
+        font-family: var(--fontMain);
 
+    }
 `
