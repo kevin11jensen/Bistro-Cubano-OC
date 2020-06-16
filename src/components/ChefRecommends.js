@@ -84,14 +84,17 @@ const Recommendations = styled.section `
     .menu-button {
         display: flex;
         justify-content: flex-end;
+        width: 50%;
         button {
-            font-family: var(--fontHero);
+            font-family: var(--fontBody);
             background: none;
             border: 1px solid var(--red);
             color: var(--white);
-            padding: 3% 4%;
+            padding: 2% 4%;
+            
             font-size: 1rem;
             margin: 2%;
+            font-weight: 600;
             &:hover {
                 background-color: var(--red);
             }

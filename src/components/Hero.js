@@ -44,7 +44,7 @@ const HeroContainer = styled.div `
         color: var(--white);
         padding: 1% 3%;
         font-size: 1.6rem;
-        margin: 2%;
+        margin: 2% 2% 4% 2%;
         &:hover {
             background-color: var(--red);
         }
