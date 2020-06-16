@@ -24,6 +24,7 @@ const MainNav = styled.nav `
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin-bottom: 1%;
     img {
         width: 25%;
         padding: 1%;
