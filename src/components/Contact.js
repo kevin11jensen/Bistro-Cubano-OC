@@ -33,6 +33,7 @@ const ContactSection = styled.section `
     justify-content: center;
     width: 100%;
     padding-top: 5%;
+    padding-bottom: 2%;
     img {
         width: 25%;
         margin-right: 2%;

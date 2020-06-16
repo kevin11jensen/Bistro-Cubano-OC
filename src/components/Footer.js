@@ -13,10 +13,17 @@ export default function Footer() {
     );
 }
 
-const FooterSection = styled.footer `
+const FooterSection = styled.section `
     background-color: var(--altBg);
+    width: 100%;
+    height: 2vh;
     p {
         text-align: center;
+        font-size: 1.6rem;
+        background-color: var(--altBg);
+        padding: 3%;
+        
+        font-family: var(--fontBody);
     }
     
 `
