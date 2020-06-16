@@ -8,7 +8,7 @@ import MiddleSection from './MiddleSection';
 import AboutUs from './About';
 import ImageScroll from './ImageScroll';
 import ChefRecommends from './ChefRecommends';
-import Reviews from './Reviews';
+// import Reviews from './Reviews';
 import Contact from './Contact';
 import Footer from './Footer';
 
