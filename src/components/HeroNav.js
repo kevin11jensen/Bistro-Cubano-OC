@@ -10,7 +10,7 @@ export default function HeroNav() {
                 <div>
                     <h3>Home</h3>
                     <h3>Menu</h3>
-                    <h3>About Us</h3>
+                    <a href = '#about'><h3>About Us</h3></a>
                     <h3>Reviews</h3>
                 </div>
             </MainNav>
@@ -34,11 +34,12 @@ const MainNav = styled.nav `
         display: flex;
         justify-content: space-around;
         width: 33%;
-        h3 {
+        a, h3 {
             font-family: var(--fontMain);
             color: var(--white);
             font-size: 1.6rem;
             padding-top: 1%;
+            text-decoration: none;
             &:hover {
                 color: var(--red);
             }

@@ -29,7 +29,7 @@ const HeroContainer = styled.div `
         font-size: 4rem;
         font-style: italicize;
         color: var(--white);
-        margin: 2%;
+        margin: 2% 2% 1% 2%;
     }
     h1 {
         font-family: var(--fontHero);
@@ -47,6 +47,7 @@ const HeroContainer = styled.div `
         margin: 2% 2% 4% 2%;
         &:hover {
             background-color: var(--red);
+            transition-duration: .5s;
         }
     }
     a {
@@ -56,6 +57,7 @@ const HeroContainer = styled.div `
         display: flex;
         justify-content: space-evenly;
         width: 27%;
+        margin-bottom: 1%;
         i {
             color: var(--red);
         }

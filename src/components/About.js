@@ -4,7 +4,7 @@ import wagneryoung from '../images/WagnerYoung.jpg';
 
 export default function AboutUs() {
     return (
-        <About>
+        <About id = 'about'>
             <div className = 'about'>
                 <h1>A Father and Son's Dream</h1>
                 <p className = 'learn'>Learn more about our Story</p>
