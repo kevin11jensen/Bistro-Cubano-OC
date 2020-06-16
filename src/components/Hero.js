@@ -11,7 +11,7 @@ export default function Hero() {
             <button>MENU</button>
 
             
-            <a href = 'https://www.google.com/maps/place/Bistro+Cubano/@45.3580982,-122.6102385,17z/data=!3m1!4b1!4m5!3m4!1s0x5495714b8a7416ff:0xe020ef100f678240!8m2!3d45.3580982!4d-122.6080498'><i class="fas fa-map-marker-alt"></i>  709 Main Street Suite 101, Oregon City, OR</a>
+            <a href = 'https://www.google.com/maps/place/Bistro+Cubano/@45.3580982,-122.6102385,17z/data=!3m1!4b1!4m5!3m4!1s0x5495714b8a7416ff:0xe020ef100f678240!8m2!3d45.3580982!4d-122.6080498'><i className = "fas fa-map-marker-alt"></i>  709 Main Street Suite 101, Oregon City, OR</a>
         </HeroContainer>
     );
 }

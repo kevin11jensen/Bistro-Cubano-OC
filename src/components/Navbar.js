@@ -7,14 +7,14 @@ export default function NavBar() {
         
             <Nav>
                 <div className = 'nav-left'>
-                    <i class="fas fa-phone"></i>
+                    <i className="fas fa-phone"></i>
                     <p>(503) 387-5678</p>
-                    <i class="far fa-clock"></i>
+                    <i className="far fa-clock"></i>
                     <p>709 Main Street Suite 101, Oregon City, OR</p>
                 </div>
                 <div className = 'nav-right'>
-                    <a href = 'https://www.facebook.com/BistroCubanoOC/'><i class="fab fa-facebook-f"></i></a>
-                    <a href = 'https://www.yelp.com/biz/bistro-cubano-caribbean-cuisine-oregon-city'><i class="fab fa-yelp"></i></a>
+                    <a href = 'https://www.facebook.com/BistroCubanoOC/'><i className ="fab fa-facebook-f"></i></a>
+                    <a href = 'https://www.yelp.com/biz/bistro-cubano-caribbean-cuisine-oregon-city'><i className ="fab fa-yelp"></i></a>
                 </div>
             </Nav>    
     );
