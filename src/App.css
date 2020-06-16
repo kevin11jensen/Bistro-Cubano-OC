@@ -3,8 +3,12 @@
   --altbg: #3a3a3a;
   --red: #cc0e0e;
   --white: #ffffff;
-  
+
   --fontMain: 'Courgette', cursive;
   --fontHero: 'Open Sans', sans-serif;
   --fontBody: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4, p {
+  color: #ffffff;
 }
