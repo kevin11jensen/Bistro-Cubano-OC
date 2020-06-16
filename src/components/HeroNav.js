@@ -24,7 +24,8 @@ const MainNav = styled.nav `
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-bottom: 1%;
+    padding-bottom: 1%;
+    background-color: var(--altBg);
     img {
         width: 25%;
         padding: 1%;
@@ -32,11 +33,11 @@ const MainNav = styled.nav `
     div {
         display: flex;
         justify-content: space-around;
-        width: 50%;
+        width: 33%;
         h3 {
             font-family: var(--fontMain);
             color: var(--white);
-            font-size: 2rem;
+            font-size: 1.6rem;
             padding-top: 1%;
             &:hover {
                 color: var(--red);

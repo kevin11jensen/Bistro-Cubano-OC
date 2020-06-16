@@ -18,6 +18,7 @@ export default function Hero() {
 
 const HeroContainer = styled.div `
     background-image: url(${cocktails});
+    
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -25,14 +26,14 @@ const HeroContainer = styled.div `
     padding: 10% 1% 1% 1%;
     h2 {
         font-family: var(--fontMain);
-        font-size: 5rem;
+        font-size: 4rem;
         font-style: italicize;
         color: var(--white);
         margin: 2%;
     }
     h1 {
         font-family: var(--fontHero);
-        font-size: 6rem;
+        font-size: 5rem;
         color: var(--white);
         margin: 2%;
     }
@@ -41,7 +42,7 @@ const HeroContainer = styled.div `
         background: none;
         border: 1px solid var(--red);
         color: var(--white);
-        padding: 2% 3%;
+        padding: 1% 3%;
         font-size: 1.6rem;
         margin: 2%;
         &:hover {

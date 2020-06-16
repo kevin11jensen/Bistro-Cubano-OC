@@ -54,21 +54,25 @@ const MiddleContainer = styled.section `
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        border-bottom: .5rem dotted var(--red);
+        
         color: var(--white);
         width: 75%;
         margin-bottom: 5%;
         h2 {
             font-family: var(--fontMain);
-            padding: 3% 1% 1% 1%;
+            padding: 7% 1% 1% 1%;
             text-align: center;
-            font-size: 3rem;
+            font-size: 4rem;
             
         }
         h4 {
             font-family: var(--fontBody);
             padding: 3% 3% 5% 3%;
             text-align: center;
+            letter-spacing: .3rem;
+            width: 75%;
+            font-weight: 600;
+            border-bottom: .3rem dotted var(--red);
         }
     }
     .sandwich {
@@ -85,11 +89,13 @@ const MiddleContainer = styled.section `
                 font-family: var(--fontMain);
                 font-size: 4rem;
                 margin: 2%;
+                padding-bottom: 2%;
             }
             p {
                 font-family: var(--fontBody);
                 margin: 3%;
                 line-height: 2rem;
+                font-weight: 600;
             }
         }
     }
@@ -109,13 +115,15 @@ const MiddleContainer = styled.section `
             h2 {
                 font-family: var(--fontMain);
                 font-size: 4rem;
-                margin: 2%;
+                margin: 3% 3% 3% 10%;
                 text-align: left;
+                padding-bottom: 2%;
             }
             p {
                 font-family: var(--fontBody);
-                margin: 3%;
+                margin: 5% 5% 5% 10%;
                 line-height: 2rem;
+                font-weight: 600;
             }
         }
     }
@@ -136,20 +144,23 @@ const MiddleContainer = styled.section `
                 font-family: var(--fontMain);
                 font-size: 4rem;
                 margin: 2%;
+                padding-bottom: 2%;
             }
             p {
                 font-family: var(--fontBody);
                 margin: 3%;
                 line-height: 2rem;
+                font-weight: 600;
             }
             button {
-                font-family: var(--fontHero);
+                font-family: var(--fontBody);
                 background: none;
                 border: 1px solid var(--red);
                 color: var(--white);
-                padding: 3% 4%;
-                font-size: 1.2rem;
+                padding: 2% 4%;
+                font-size: 1rem;
                 margin: 2%;
+                font-weight: 600;
                 &:hover {
                     background-color: var(--red);
                 }
