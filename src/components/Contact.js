@@ -20,8 +20,8 @@ export default function Contact() {
             </div>
             <div className = 'stay-connected'>
                 <p>STAY CONNECTED</p>
-                <a href = ''>Facebook</a>
-                <a href = ''>Yelp</a>
+                <a href = 'https://www.facebook.com/BistroCubanoOC/'>Facebook</a>
+                <a href = 'https://www.yelp.com/biz/bistro-cubano-caribbean-cuisine-oregon-city'>Yelp</a>
             </div>
         </ContactSection>
     );
