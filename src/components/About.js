@@ -18,15 +18,17 @@ export default function AboutUs() {
 const About = styled.section `
     display: flex;
     background-color: var(--black);
-    
+    img {
+        width: 70%;
+    }
     .about {
-        width: 50%;
+        width: 40%;
         background-color: black;
-        padding: 2%;
+        padding: 5%;
         h1 {
             font-family: var(--fontMain);
             font-size: 4rem;
-            padding: 2%;
+            padding: 2% 2% 6% 2%;
         }
         .learn {
             font-family: var(--fontHero);
@@ -36,6 +38,8 @@ const About = styled.section `
         p {
             font-family: var(--fontBody);
             padding: 2%;
+            line-height: 2rem;
+            width: 80%;
         }
     }
 `

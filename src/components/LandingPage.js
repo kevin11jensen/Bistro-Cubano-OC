@@ -22,7 +22,7 @@ export default function LandingPage() {
                 <AboutUs />
                 <ImageScroll />
                 <ChefRecommends />
-                <Reviews />
+                {/* <Reviews /> */}
                 <Contact />
                 <Footer />
             </MainContainer>

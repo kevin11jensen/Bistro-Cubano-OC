@@ -12,7 +12,7 @@ export default function ImageScroll() {
 }
 
 const ImageScrollContainer = styled.section `
-    
+    background-color: black;
     img {
         width: 100%;
     }
