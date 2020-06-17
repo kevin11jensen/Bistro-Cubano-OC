@@ -38,6 +38,9 @@ const MainNav = styled.nav `
         @media ${device.tablet} {
             width: 60%;
         }
+        @media ${device.mobileL} {
+            display: none;
+        }
         a, h3 {
             font-family: var(--fontMain);
             color: var(--white);

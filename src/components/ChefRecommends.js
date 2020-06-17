@@ -57,12 +57,20 @@ const Recommendations = styled.section `
         @media ${device.tablet} {
             font-size: 3rem;
         }
+        @media ${device.mobileL} {
+            text-align: center;
+            font-size: 2rem;
+        }
     }
     h4 {
         font-family: var(--fontMain);
         font-size: 1.6rem;
         @media ${device.tablet} {
             font-size: 1.2rem;
+        }
+        @media ${device.mobileL} {
+            text-align: center;
+            font-size: 1rem;
         }
         span {
             color: var(--red);

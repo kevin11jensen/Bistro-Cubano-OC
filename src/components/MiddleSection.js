@@ -63,7 +63,10 @@ const MiddleContainer = styled.section `
             padding: 7% 1% 1% 1%;
             text-align: center;
             font-size: 4rem;
-            
+            @media ${device.mobileL} {
+                font-size: 1.8rem;
+                width: 90%;
+            }
         }
         h4 {
             font-family: var(--fontBody);
@@ -73,6 +76,10 @@ const MiddleContainer = styled.section `
             width: 75%;
             font-weight: 600;
             border-bottom: .3rem dotted var(--red);
+            @media ${device.mobileL} {
+                font-size: .8rem;
+                width: 90%;
+            }
         }
     }
     .sandwich {
@@ -83,15 +90,28 @@ const MiddleContainer = styled.section `
             @media ${device.tablet} {
                 width: 60%;
             }
+            @media ${device.mobileL} {
+                width: 99%;
+            }
         }
-        
+        @media ${device.mobileL} {
+            font-size: 1.6rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 99%;
+        }
         .sandwhich-text {
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
+
             width: 40%;
-            
+            @media ${device.mobileL} {
+                width: 90%;
+                text-align: center;
+            }
             h2 {
                 font-family: var(--fontMain);
                 font-size: 4rem;
@@ -99,6 +119,10 @@ const MiddleContainer = styled.section `
                 padding-bottom: 2%;
                 @media ${device.tablet} {
                     font-size: 2rem;
+                }
+                @media ${device.mobileL} {
+                    font-size: 1.6rem;
+                    width: 99%;
                 }
             }
             p {
@@ -108,6 +132,10 @@ const MiddleContainer = styled.section `
                 font-weight: 600;
                 @media ${device.tablet} {
                     font-size: 1rem;
+                }
+                @media ${device.mobileL} {
+                    font-size: .8rem;
+                    
                 }
             }
         }
@@ -118,7 +146,19 @@ const MiddleContainer = styled.section `
         justify-content: space-around;
         img {
             width: 49%;
-            
+            @media ${device.mobileL} {
+                width: 99%;
+            }
+        }
+        @media ${device.tablet} {
+            width: 99%;
+        }
+        @media ${device.mobileL} {
+            font-size: 1.6rem;
+            display: flex;
+            flex-direction: column-reverse;
+            align-items: center;
+            width: 99%;
         }
         .staff-text {
             display: flex;
@@ -126,6 +166,10 @@ const MiddleContainer = styled.section `
             justify-content: center;
             
             width: 40%;
+            @media ${device.mobileL} {
+                width: 90%;
+                text-align: center;
+            }
             h2 {
                 font-family: var(--fontMain);
                 font-size: 4rem;
@@ -134,6 +178,10 @@ const MiddleContainer = styled.section `
                 padding-bottom: 2%;
                 @media ${device.tablet} {
                     font-size: 2rem;
+                }
+                @media ${device.mobileL} {
+                    font-size: 1.6rem;
+                    text-align: center;
                 }
             }
             p {
@@ -144,6 +192,10 @@ const MiddleContainer = styled.section `
                 @media ${device.tablet} {
                     font-size: 1rem;
                 }
+                @media ${device.mobileL} {
+                    font-size: .8rem;
+                    
+                }
             }
         }
     }
@@ -153,6 +205,16 @@ const MiddleContainer = styled.section `
         justify-content: space-around;
         img {
             width: 44%;
+            @media ${device.mobileL} {
+                width: 99%;
+            }
+        }
+        @media ${device.mobileL} {
+            font-size: 1.6rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 99%;
         }
         .oregoncity-text {
             display: flex;
@@ -160,6 +222,10 @@ const MiddleContainer = styled.section `
             justify-content: center;
             align-items: center;
             width: 40%;
+            @media ${device.mobileL} {
+                width: 90%;
+                text-align: center;
+            }
             h2 {
                 font-family: var(--fontMain);
                 font-size: 4rem;
@@ -167,6 +233,10 @@ const MiddleContainer = styled.section `
                 padding-bottom: 2%;
                 @media ${device.tablet} {
                     font-size: 2rem;
+                }
+                @media ${device.mobileL} {
+                    font-size: 1.6rem;
+                    
                 }
             }
             p {
@@ -176,6 +246,10 @@ const MiddleContainer = styled.section `
                 font-weight: 600;
                 @media ${device.tablet} {
                     font-size: 1rem;
+                }
+                @media ${device.mobileL} {
+                    font-size: .8rem;
+                    
                 }
             }
             button {

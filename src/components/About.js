@@ -23,20 +23,35 @@ const About = styled.section `
         width: 80%;
         background-color: var(--black);
         @media ${device.tablet} {
-            
             height: 99%;
         }
+        @media ${device.mobileL} {
+            width: 100%;
+        }
+    }
+    @media ${device.mobileL} {
+        font-size: 1.6rem;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        width: 99%;
     }
     .about {
         width: 50%;
         background-color: black;
         padding: 5%;
+        @media ${device.mobileL} {
+            width: 99%;
+        }
         h1 {
             font-family: var(--fontMain);
             font-size: 4rem;
             padding: 2% 2% 6% 2%;
             @media ${device.tablet} {
                 font-size: 2rem;
+            }
+            @media ${device.mobileL} {
+                text-align: center;
             }
         }
         .learn {
@@ -51,6 +66,9 @@ const About = styled.section `
             @media ${device.tablet} {
                 font-size: 1rem;
             }
+            @media ${device.mobileL} {
+                text-align: center;
+            }
         }
         .learn-info {
             font-family: var(--fontBody);
@@ -60,6 +78,9 @@ const About = styled.section `
             font-weight: 600;
             @media ${device.tablet} {
                 font-size: 1rem;
+            }
+            @media ${device.mobileL} {
+                text-align: center;
             }
         }
     }

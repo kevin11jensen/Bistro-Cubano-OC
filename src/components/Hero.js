@@ -30,12 +30,18 @@ const HeroContainer = styled.div `
         font-style: italicize;
         color: var(--white);
         margin: 2% 2% 1% 2%;
+        @media ${device.mobileL} {
+            font-size: 1.6rem;
+        }
     }
     h1 {
         font-family: var(--fontHero);
         font-size: 5rem;
         color: var(--white);
         margin: 2%;
+        @media ${device.mobileL} {
+            font-size: 2.4rem;
+        }
     }
     button {
         font-family: var(--fontHero);
@@ -45,6 +51,9 @@ const HeroContainer = styled.div `
         padding: 1% 3%;
         font-size: 1.6rem;
         margin: 2% 2% 4% 2%;
+        @media ${device.mobileL} {
+            font-size: 1.2rem;
+        }
         &:hover {
             background-color: var(--red);
             transition-duration: .5s;
@@ -60,6 +69,10 @@ const HeroContainer = styled.div `
         margin-bottom: 1%;
         @media ${device.tablet} {
             width: 60%;
+        }
+        @media ${device.mobileL} {
+            font-size: .8rem;
+            width: 90%;
         }
         i {
             color: var(--red);

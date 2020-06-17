@@ -36,6 +36,10 @@ const Nav = styled.nav `
         @media ${device.tablet} {
             width: 50%;
         }
+        @media ${device.mobileL} {
+            width: 66%;
+            font-size: 1rem;
+        }
     }
     .nav-right {
         display: flex;
