@@ -10,7 +10,7 @@ export default function Contact() {
                 <h5>VISIT US</h5>
                 <p><i className="fas fa-phone"></i> (503) 387-5678</p>
                 <p><i className = "fas fa-map-marker-alt"></i> 709 Main Street Suite 101, Oregon City, OR 97045​​</p>
-                <a href = 'https://www.google.com/maps/place/Bistro+Cubano+Caribbean+Cuisine/@45.3581019,-122.6102385,17z/data=!3m1!4b1!4m5!3m4!1s0x5495714b8a7416ff:0xe020ef100f678240!8m2!3d45.3580982!4d-122.6080498'><p className = 'directions'><i class="fas fa-directions"></i> GET DIRECTIONS</p></a>
+                <a href = 'https://www.google.com/maps/place/Bistro+Cubano+Caribbean+Cuisine/@45.3581019,-122.6102385,17z/data=!3m1!4b1!4m5!3m4!1s0x5495714b8a7416ff:0xe020ef100f678240!8m2!3d45.3580982!4d-122.6080498'><p className = 'directions'><i className = "fas fa-directions"></i> GET DIRECTIONS</p></a>
             </div>
             <div className = 'hours'>
                 <h5>OPENING HOURS</h5>
