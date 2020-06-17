@@ -97,6 +97,7 @@ const Recommendations = styled.section `
             font-weight: 600;
             &:hover {
                 background-color: var(--red);
+                transition-duration: .5s;
             }
         }
     }
