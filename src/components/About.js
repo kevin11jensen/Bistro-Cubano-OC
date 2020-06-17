@@ -19,6 +19,7 @@ export default function AboutUs() {
 const About = styled.section `
     display: flex;
     background-color: var(--black);
+    
     img {
         width: 80%;
         background-color: var(--black);
