@@ -18,7 +18,10 @@ export default function Hero() {
 
 const HeroContainer = styled.div `
     background-image: url(${cocktails});
+    background-repeat: no-repeat;
     
+    background-size: cover;
+    background-position: center;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -31,6 +34,7 @@ const HeroContainer = styled.div `
         font-style: italicize;
         color: var(--white);
         margin: 2% 2% 1% 2%;
+        
         @media ${device.mobileL} {
             font-size: 1.6rem;
         }
