@@ -35,11 +35,20 @@ const ContactSection = styled.section `
     width: 100%;
     padding-top: 5%;
     padding-bottom: 2%;
+    @media ${device.mobileL} {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
     img {
         width: 25%;
         margin-right: 2%;
         @media ${device.tablet} {
             width: 33%;
+        }
+        @media ${device.mobileL} {
+            width: 99%;
         }
     }
     .visit-us {
@@ -47,6 +56,13 @@ const ContactSection = styled.section `
         flex-direction: column;
         width: 20%;
         margin-right: 2%;
+        @media ${device.mobileL} {
+            margin: 1%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 99%;
+        }
         h5 {
             font-weight: 800;
             color: var(--white);
@@ -54,6 +70,9 @@ const ContactSection = styled.section `
             margin-bottom: 6%;
             @media ${device.tablet} {
                 font-size: 1rem;
+            }
+            @media ${device.mobileL} {
+                margin-bottom: 1%;
             }
         }
         p {
@@ -70,10 +89,13 @@ const ContactSection = styled.section `
         }
         a {
             text-decoration: none;
+            @media ${device.mobileL} {
+                width: 99%;
+            }
             .directions {
                 color: var(--red);
                 font-weight: 600;
-                
+                text-align: center;
                 &:hover {
                     color: var(--white);
                     transform: scale(1.1);
@@ -87,11 +109,21 @@ const ContactSection = styled.section `
         display: flex;
         flex-direction: column;
         width: 20%;
+        @media ${device.mobileL} {
+            margin: 1%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 99%;
+        }
         h5 {
             font-weight: 800;
             color: var(--white);
             font-family: var(--fontBody);
             margin-bottom: 6%;
+            @media ${device.mobileL} {
+                margin-bottom: 1%;
+            }
         }
         p {
             font-family: var(--fontBody);
@@ -106,11 +138,20 @@ const ContactSection = styled.section `
         display: flex;
         flex-direction: column;
         width: 20%;
+        @media ${device.mobileL} {
+            margin: 1%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 99%;
+        }
         p{
             font-family: var(--fontBody);
             font-weight: 800;
             margin-bottom: 6%;
-            
+            @media ${device.mobileL} {
+                margin-bottom: 1%;
+            }
         }
         a {
             

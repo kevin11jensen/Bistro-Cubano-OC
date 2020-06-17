@@ -30,6 +30,9 @@ const MainNav = styled.nav `
     img {
         width: 25%;
         padding: 1%;
+        @media ${device.mobileL} {
+            width: 50%;
+        }
     }
     div {
         display: flex;

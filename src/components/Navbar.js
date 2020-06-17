@@ -29,6 +29,9 @@ const Nav = styled.nav `
     justify-content: space-around;
     font-size: .8rem;
     padding: 1% 0;
+    @media ${device.mobileL} {
+        display: none;
+    }
     .nav-left {
         display: flex;
         justify-content: space-around;
@@ -36,10 +39,7 @@ const Nav = styled.nav `
         @media ${device.tablet} {
             width: 50%;
         }
-        @media ${device.mobileL} {
-            width: 66%;
-            font-size: 1rem;
-        }
+        
     }
     .nav-right {
         display: flex;
