@@ -77,6 +77,7 @@ const MiddleContainer = styled.section `
             width: 75%;
             font-weight: 600;
             border-bottom: .3rem dotted var(--red);
+            line-height: 1.5rem;
             @media ${device.mobileL} {
                 font-size: .8rem;
                 width: 96%;
