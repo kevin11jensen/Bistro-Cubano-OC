@@ -7,10 +7,10 @@ export default function NavBar() {
         
             <Nav>
                 <div className = 'nav-left'>
-                    <i className="fas fa-phone"></i>
-                    <p>(503) 387-5678</p>
-                    <i className="far fa-clock"></i>
-                    <p>709 Main Street Suite 101, Oregon City, OR</p>
+                    
+                    <p><i className="fas fa-phone"></i> (503) 387-5678</p>
+                    
+                    <p><i className="far fa-clock"></i> 709 Main Street Suite 101, Oregon City, OR</p>
                 </div>
                 <div className = 'nav-right'>
                     <a href = 'https://www.facebook.com/BistroCubanoOC/'><i className ="fab fa-facebook-f"></i></a>
