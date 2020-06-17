@@ -71,7 +71,7 @@ const Recommendations = styled.section `
         }
         @media ${device.mobileL} {
             text-align: center;
-            font-size: 1rem;
+            font-size: 1.2rem;
         }
         span {
             color: var(--red);
