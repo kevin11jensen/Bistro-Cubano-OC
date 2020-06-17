@@ -17,6 +17,7 @@ const FooterSection = styled.section `
     background-color: var(--altBg);
     width: 100%;
     height: 2vh;
+    overflow-x: hidden;
     p {
         text-align: center;
         font-size: 1.2rem;

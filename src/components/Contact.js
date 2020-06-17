@@ -35,6 +35,7 @@ const ContactSection = styled.section `
     width: 100%;
     padding-top: 5%;
     padding-bottom: 2%;
+    overflow-x: hidden;
     @media ${device.mobileL} {
         display: flex;
         flex-direction: column;

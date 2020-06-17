@@ -27,6 +27,7 @@ const MainNav = styled.nav `
     justify-content: center;
     padding-bottom: 1%;
     background-color: var(--altBg);
+    overflow-x: hidden;
     img {
         width: 25%;
         padding: 1%;

@@ -29,6 +29,7 @@ const Nav = styled.nav `
     justify-content: space-around;
     font-size: .8rem;
     padding: 1% 0;
+    overflow-x: hidden;
     @media ${device.mobileL} {
         display: none;
     }

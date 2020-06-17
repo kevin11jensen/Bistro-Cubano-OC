@@ -24,7 +24,7 @@ const HeroContainer = styled.div `
     align-items: center;
     justify-content: center;
     padding: 10% 1% 1% 1%;
-    
+    overflow-x: hidden;
     h2 {
         font-family: var(--fontMain);
         font-size: 4rem;

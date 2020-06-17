@@ -33,4 +33,5 @@ export default function LandingPage() {
 const MainContainer = styled.div `
     background-color: var(--bg);
     height: 100vh;
+    overflow-x: hidden;
 `

@@ -49,6 +49,7 @@ const MiddleContainer = styled.section `
     justify-content: center;
     background: var(--bg);
     padding-bottom: 6%;
+    overflow-x: hidden;
     .middle-header {
         display: flex;
         flex-direction: column;
