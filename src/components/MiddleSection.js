@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-
+import { device } from './device';
 import sandwhich from '../images/sandwhich.jpg';
 import staffBistro from '../images/Staff-bistro.jpg';
 import oregonCity from '../images/Oregon-city.jpg';
@@ -79,23 +79,36 @@ const MiddleContainer = styled.section `
         display: flex;
         width: 75%;
         justify-content: space-around;
+        img {
+            @media ${device.tablet} {
+                width: 60%;
+            }
+        }
+        
         .sandwhich-text {
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
             width: 40%;
+            
             h2 {
                 font-family: var(--fontMain);
                 font-size: 4rem;
                 margin: 2%;
                 padding-bottom: 2%;
+                @media ${device.tablet} {
+                    font-size: 2rem;
+                }
             }
             p {
                 font-family: var(--fontBody);
                 margin: 3%;
                 line-height: 2rem;
                 font-weight: 600;
+                @media ${device.tablet} {
+                    font-size: 1rem;
+                }
             }
         }
     }
@@ -105,6 +118,7 @@ const MiddleContainer = styled.section `
         justify-content: space-around;
         img {
             width: 49%;
+            
         }
         .staff-text {
             display: flex;
@@ -118,12 +132,18 @@ const MiddleContainer = styled.section `
                 margin: 3% 3% 3% 10%;
                 text-align: left;
                 padding-bottom: 2%;
+                @media ${device.tablet} {
+                    font-size: 2rem;
+                }
             }
             p {
                 font-family: var(--fontBody);
                 margin: 5% 5% 5% 10%;
                 line-height: 2rem;
                 font-weight: 600;
+                @media ${device.tablet} {
+                    font-size: 1rem;
+                }
             }
         }
     }
@@ -145,12 +165,18 @@ const MiddleContainer = styled.section `
                 font-size: 4rem;
                 margin: 2%;
                 padding-bottom: 2%;
+                @media ${device.tablet} {
+                    font-size: 2rem;
+                }
             }
             p {
                 font-family: var(--fontBody);
                 margin: 3%;
                 line-height: 2rem;
                 font-weight: 600;
+                @media ${device.tablet} {
+                    font-size: 1rem;
+                }
             }
             button {
                 font-family: var(--fontBody);

@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import cocktails from '../images/CocktailsCoverOne.jpg';
-
+import { device } from './device';
 
 export default function Hero() {
     return (
@@ -58,6 +58,9 @@ const HeroContainer = styled.div `
         justify-content: space-evenly;
         width: 27%;
         margin-bottom: 1%;
+        @media ${device.tablet} {
+            width: 60%;
+        }
         i {
             color: var(--red);
         }

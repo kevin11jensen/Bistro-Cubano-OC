@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import wagneryoung from '../images/WagnerYoung.jpg';
+import { device } from './device';
 
 export default function AboutUs() {
     return (
@@ -20,6 +21,11 @@ const About = styled.section `
     background-color: var(--black);
     img {
         width: 80%;
+        background-color: var(--black);
+        @media ${device.tablet} {
+            
+            height: 99%;
+        }
     }
     .about {
         width: 50%;
@@ -29,6 +35,9 @@ const About = styled.section `
             font-family: var(--fontMain);
             font-size: 4rem;
             padding: 2% 2% 6% 2%;
+            @media ${device.tablet} {
+                font-size: 2rem;
+            }
         }
         .learn {
             font-family: var(--fontBody);
@@ -39,6 +48,9 @@ const About = styled.section `
             border-left: 6px solid var(--red);
             letter-spacing: .3rem;
             padding: 1%;
+            @media ${device.tablet} {
+                font-size: 1rem;
+            }
         }
         .learn-info {
             font-family: var(--fontBody);
@@ -46,6 +58,9 @@ const About = styled.section `
             line-height: 2rem;
             width: 90%;
             font-weight: 600;
+            @media ${device.tablet} {
+                font-size: 1rem;
+            }
         }
     }
 `

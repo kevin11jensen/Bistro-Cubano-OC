@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import logo from '../images/logo.png';
+import { device } from './device';
 
 export default function Contact() {
     return (
@@ -37,6 +38,9 @@ const ContactSection = styled.section `
     img {
         width: 25%;
         margin-right: 2%;
+        @media ${device.tablet} {
+            width: 33%;
+        }
     }
     .visit-us {
         display: flex;
@@ -48,11 +52,17 @@ const ContactSection = styled.section `
             color: var(--white);
             font-family: var(--fontBody);
             margin-bottom: 6%;
+            @media ${device.tablet} {
+                font-size: 1rem;
+            }
         }
         p {
             font-family: var(--fontBody);
             line-height: 2rem;
             margin-right: 2%;
+            @media ${device.tablet} {
+                font-size: .8rem;
+            }
             i:hover {
                 color: var(--red);
             }
@@ -87,7 +97,9 @@ const ContactSection = styled.section `
             font-family: var(--fontBody);
             line-height: 2rem;
             margin-right: 2%;
-            
+            @media ${device.tablet} {
+                font-size: .8rem;
+            }
         }
     }
     .stay-connected {
@@ -98,6 +110,7 @@ const ContactSection = styled.section `
             font-family: var(--fontBody);
             font-weight: 800;
             margin-bottom: 6%;
+            
         }
         a {
             
@@ -106,6 +119,9 @@ const ContactSection = styled.section `
             margin-right: 2%;
             text-decoration: none;
             color: var(--white);
+            @media ${device.tablet} {
+                font-size: .8rem;
+            }
             &:hover {
                 color: var(--red);
             }

@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-
+import { device } from './device';
 
 export default function NavBar() {
     return (
@@ -33,11 +33,17 @@ const Nav = styled.nav `
         display: flex;
         justify-content: space-around;
         width: 33%;
+        @media ${device.tablet} {
+            width: 50%;
+        }
     }
     .nav-right {
         display: flex;
         justify-content: space-evenly;
         width: 6%;
+        @media ${device.tablet} {
+            width: 12%;
+        }
         a {
             color: var(--white);
         }

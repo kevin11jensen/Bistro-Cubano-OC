@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import logo from '../images/logo.png';
+import { device } from './device';
 
 export default function HeroNav() {
     return (
@@ -34,12 +35,16 @@ const MainNav = styled.nav `
         display: flex;
         justify-content: space-around;
         width: 33%;
+        @media ${device.tablet} {
+            width: 60%;
+        }
         a, h3 {
             font-family: var(--fontMain);
             color: var(--white);
             font-size: 1.6rem;
             padding-top: 1%;
             text-decoration: none;
+            
             &:hover {
                 color: var(--red);
             }

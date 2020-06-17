@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-
+import { device } from './device';
 
 export default function ChefRecommends() {
     return (
@@ -54,12 +54,19 @@ const Recommendations = styled.section `
         font-size: 3.5rem;
         text-align: left;
         padding: 6% 8% 2% 0;
+        @media ${device.tablet} {
+            font-size: 3rem;
+        }
     }
     h4 {
         font-family: var(--fontMain);
         font-size: 1.6rem;
+        @media ${device.tablet} {
+            font-size: 1.2rem;
+        }
         span {
             color: var(--red);
+            
         }
     }
     .cubano {
@@ -68,17 +75,25 @@ const Recommendations = styled.section `
         justify-content: center;
         align-items: center;
         width: 75%;
+        @media ${device.tablet} {
+            width: 90%;
+        }
         .info {
             display: flex;
             justify-content: space-between;
             width: 70%;
-            
+            @media ${device.tablet} {
+                width: 90%;
+            }
         }
         p {
             font-family: var(--fontBody);
             line-height: 2rem;
             width: 70%;
             padding-bottom: 2%;
+            @media ${device.tablet} {
+                width: 90%;
+            }
         }
     }
     .menu-button {
