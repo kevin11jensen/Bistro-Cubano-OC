@@ -78,7 +78,8 @@ const MiddleContainer = styled.section `
             border-bottom: .3rem dotted var(--red);
             @media ${device.mobileL} {
                 font-size: .8rem;
-                width: 90%;
+                width: 96%;
+                line-height: 1.2rem;
             }
         }
     }
@@ -182,6 +183,7 @@ const MiddleContainer = styled.section `
                 @media ${device.mobileL} {
                     font-size: 1.6rem;
                     text-align: center;
+                    margin: 2%;
                 }
             }
             p {

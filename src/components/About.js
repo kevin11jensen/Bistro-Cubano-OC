@@ -81,6 +81,8 @@ const About = styled.section `
             }
             @media ${device.mobileL} {
                 text-align: center;
+                padding: 2%;
+                margin: 2%;
             }
         }
     }

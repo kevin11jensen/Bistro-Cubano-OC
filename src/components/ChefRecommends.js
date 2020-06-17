@@ -60,6 +60,7 @@ const Recommendations = styled.section `
         @media ${device.mobileL} {
             text-align: center;
             font-size: 2rem;
+            margin-bottom: 2%;
         }
     }
     h4 {
@@ -74,7 +75,9 @@ const Recommendations = styled.section `
         }
         span {
             color: var(--red);
-            
+            @media ${device.mobileL} {
+                display: none;
+            }
         }
     }
     .cubano {
@@ -101,6 +104,9 @@ const Recommendations = styled.section `
             padding-bottom: 2%;
             @media ${device.tablet} {
                 width: 90%;
+            }
+            @media ${device.mobileL} {
+                margin-bottom: 3%;
             }
         }
     }

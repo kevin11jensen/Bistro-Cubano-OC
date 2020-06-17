@@ -49,6 +49,7 @@ const ContactSection = styled.section `
         }
         @media ${device.mobileL} {
             width: 99%;
+            margin: 2%;
         }
     }
     .visit-us {
