@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-
+import { device } from './device';
 
 export default function Footer() {
     return (
@@ -23,8 +23,10 @@ const FooterSection = styled.section `
         font-size: 1.2rem;
         background-color: var(--altBg);
         padding: 3%;
-        
         font-family: var(--fontBody);
+        @media ${device.mobileL} {
+            padding-bottom: 6%;
+        }
     }
     
 `
