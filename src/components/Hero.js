@@ -47,11 +47,12 @@ const HeroContainer = styled.div `
     }
     h1 {
         font-family: var(--fontHero);
-        font-size: 9rem;
+        font-size: 8rem;
+        
         color: var(--white);
         margin: 2% 2% 6% 2%;
         text-align: center;
-        letter-spacing: .3rem;
+        
         @media ${device.tablet} {
             font-size: 6rem;
         }
@@ -65,7 +66,7 @@ const HeroContainer = styled.div `
         background: none;
         border: 1px solid var(--red);
         color: var(--white);
-        padding: 3% 6%;
+        padding: 2% 5%;
         font-size: 1.6rem;
         margin: 2% 2% 4% 2%;
         @media ${device.tablet} {
