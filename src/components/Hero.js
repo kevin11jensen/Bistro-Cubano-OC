@@ -26,7 +26,7 @@ const HeroContainer = styled.div `
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 10% 1% 1% 1%;
+    padding: 6% 1% 1% 1%;
     overflow-x: hidden;
     @media ${device.mobileL} {
         height: 55vh;
@@ -36,7 +36,7 @@ const HeroContainer = styled.div `
         font-size: 4rem;
         font-style: italicize;
         color: var(--white);
-        margin: 2% 2% 1% 2%;
+        margin: 1% 2% 1% 2%;
         @media ${device.tablet} {
             text-align: center;
         }
@@ -46,9 +46,9 @@ const HeroContainer = styled.div `
     }
     h1 {
         font-family: var(--fontHero);
-        font-size: 5rem;
+        font-size: 9rem;
         color: var(--white);
-        margin: 2%;
+        margin: 2% 2% 6% 2%;
         text-align: center;
         letter-spacing: .3rem;
         @media ${device.mobileL} {
@@ -61,7 +61,7 @@ const HeroContainer = styled.div `
         background: none;
         border: 1px solid var(--red);
         color: var(--white);
-        padding: 1% 3%;
+        padding: 3% 6%;
         font-size: 1.6rem;
         margin: 2% 2% 4% 2%;
         @media ${device.tablet} {
@@ -87,6 +87,7 @@ const HeroContainer = styled.div `
         justify-content: space-evenly;
         width: 27%;
         margin-bottom: 1%;
+        margin-top: 10%;
         @media ${device.tablet} {
             width: 90%;
         }
