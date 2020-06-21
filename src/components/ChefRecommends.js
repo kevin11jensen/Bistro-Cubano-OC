@@ -112,8 +112,11 @@ const Recommendations = styled.section `
     }
     .menu-button {
         display: flex;
-        justify-content: flex-end;
+        justify-content: center;
         width: 50%;
+        @media ${device.tablet} {
+            width: 99%;
+        }
         button {
             font-family: var(--fontBody);
             background: none;
@@ -124,6 +127,12 @@ const Recommendations = styled.section `
             font-size: 1rem;
             margin: 2%;
             font-weight: 600;
+            @media ${device.tablet} {
+                font-size: 1rem;
+                padding: 6% 9%;
+                margin: 6% 0 11% 0;
+                
+            }
             &:hover {
                 background-color: var(--red);
                 transition-duration: .5s;

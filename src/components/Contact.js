@@ -36,6 +36,12 @@ const ContactSection = styled.section `
     padding-top: 5%;
     padding-bottom: 2%;
     overflow-x: hidden;
+    @media ${device.tablet} {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
     @media ${device.mobileL} {
         display: flex;
         flex-direction: column;
@@ -46,7 +52,7 @@ const ContactSection = styled.section `
         width: 25%;
         margin-right: 2%;
         @media ${device.tablet} {
-            width: 33%;
+            width: 99%;
         }
         @media ${device.mobileL} {
             width: 99%;
@@ -58,6 +64,10 @@ const ContactSection = styled.section `
         flex-direction: column;
         width: 20%;
         margin-right: 2%;
+        @media ${device.tablet} {
+            width: 99%;
+            margin-left: 6%;
+        }
         @media ${device.mobileL} {
             margin: 1%;
             display: flex;
@@ -72,6 +82,9 @@ const ContactSection = styled.section `
             margin-bottom: 6%;
             @media ${device.tablet} {
                 font-size: 1rem;
+                width: 99%;
+                margin-left: 6%;
+                margin-bottom: 2%;
             }
             @media ${device.mobileL} {
                 margin-bottom: 1%;
@@ -83,6 +96,8 @@ const ContactSection = styled.section `
             margin-right: 2%;
             @media ${device.tablet} {
                 font-size: .8rem;
+                width: 99%;
+                margin-left: 6%;
             }
             i:hover {
                 color: var(--red);
@@ -91,6 +106,10 @@ const ContactSection = styled.section `
         }
         a {
             text-decoration: none;
+            @media ${device.tablet} {
+                width: 99%;
+                margin-left: 6%;
+            }
             @media ${device.mobileL} {
                 width: 99%;
             }
@@ -111,6 +130,11 @@ const ContactSection = styled.section `
         display: flex;
         flex-direction: column;
         width: 20%;
+        @media ${device.tablet} {
+            width: 99%;
+            margin-left: 15%;
+            margin-bottom: 3%;
+        }
         @media ${device.mobileL} {
             margin: 1%;
             display: flex;
@@ -123,6 +147,9 @@ const ContactSection = styled.section `
             color: var(--white);
             font-family: var(--fontBody);
             margin-bottom: 6%;
+            @media ${device.tablet} {
+                margin-bottom: 2%;
+            }
             @media ${device.mobileL} {
                 margin-bottom: 1%;
             }
@@ -133,6 +160,7 @@ const ContactSection = styled.section `
             margin-right: 2%;
             @media ${device.tablet} {
                 font-size: .8rem;
+                
             }
         }
     }
@@ -140,6 +168,10 @@ const ContactSection = styled.section `
         display: flex;
         flex-direction: column;
         width: 20%;
+        @media ${device.tablet} {
+            width: 99%;
+            margin-left: 15%;
+        }
         @media ${device.mobileL} {
             margin: 1%;
             display: flex;
@@ -151,6 +183,9 @@ const ContactSection = styled.section `
             font-family: var(--fontBody);
             font-weight: 800;
             margin-bottom: 6%;
+            @media ${device.tablet} {
+                margin-bottom: 1%;
+            }
             @media ${device.mobileL} {
                 margin-bottom: 1%;
             }

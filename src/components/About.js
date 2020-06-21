@@ -24,11 +24,17 @@ const About = styled.section `
         width: 80%;
         background-color: var(--black);
         @media ${device.tablet} {
-            height: 99%;
+            width: 100%;
         }
         @media ${device.mobileL} {
             width: 100%;
         }
+    }
+    @media ${device.tablet} {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        width: 99%;
     }
     @media ${device.mobileL} {
         font-size: 1.6rem;
@@ -41,8 +47,13 @@ const About = styled.section `
         width: 50%;
         background-color: black;
         padding: 5%;
+        @media ${device.tablet} {
+            width: 99%;
+            margin-left: 3%;
+        }
         @media ${device.mobileL} {
             width: 99%;
+            margin-left: 3%;
         }
         h1 {
             font-family: var(--fontMain);
