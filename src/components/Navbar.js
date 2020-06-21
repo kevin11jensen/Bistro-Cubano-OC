@@ -30,6 +30,9 @@ const Nav = styled.nav `
     font-size: .8rem;
     padding: 1% 0;
     overflow-x: hidden;
+    @media ${device.tablet} {
+        display: none;
+    }
     @media ${device.mobileL} {
         display: none;
     }
@@ -37,18 +40,11 @@ const Nav = styled.nav `
         display: flex;
         justify-content: space-around;
         width: 33%;
-        @media ${device.tablet} {
-            width: 50%;
-        }
-        
     }
     .nav-right {
         display: flex;
         justify-content: space-evenly;
         width: 6%;
-        @media ${device.tablet} {
-            width: 12%;
-        }
         a {
             color: var(--white);
         }
