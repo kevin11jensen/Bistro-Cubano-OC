@@ -31,6 +31,9 @@ const MainNav = styled.nav `
     img {
         width: 25%;
         padding: 1%;
+        @media ${device.tablet} {
+            width: 65%;
+        }
         @media ${device.mobileL} {
             width: 50%;
         }
@@ -40,7 +43,7 @@ const MainNav = styled.nav `
         justify-content: space-around;
         width: 33%;
         @media ${device.tablet} {
-            width: 60%;
+            display: none;
         }
         @media ${device.mobileL} {
             display: none;

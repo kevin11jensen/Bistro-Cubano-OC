@@ -28,13 +28,18 @@ const HeroContainer = styled.div `
     justify-content: center;
     padding: 10% 1% 1% 1%;
     overflow-x: hidden;
+    @media ${device.mobileL} {
+        height: 55vh;
+    }
     h2 {
         font-family: var(--fontMain);
         font-size: 4rem;
         font-style: italicize;
         color: var(--white);
         margin: 2% 2% 1% 2%;
-        
+        @media ${device.tablet} {
+            text-align: center;
+        }
         @media ${device.mobileL} {
             font-size: 1.6rem;
         }
@@ -44,8 +49,11 @@ const HeroContainer = styled.div `
         font-size: 5rem;
         color: var(--white);
         margin: 2%;
+        text-align: center;
+        letter-spacing: .3rem;
         @media ${device.mobileL} {
-            font-size: 2.4rem;
+            font-size: 3rem;
+            margin-bottom: 11%;
         }
     }
     button {
@@ -56,8 +64,15 @@ const HeroContainer = styled.div `
         padding: 1% 3%;
         font-size: 1.6rem;
         margin: 2% 2% 4% 2%;
+        @media ${device.tablet} {
+            font-size: 1rem;
+            padding: 5% 8%;
+            margin: 6% 0 11% 0;
+        }
         @media ${device.mobileL} {
-            font-size: 1.2rem;
+            font-size: 1rem;
+            padding: 5% 8%;
+            margin: 6% 0 11% 0;
         }
         &:hover {
             background-color: var(--red);
@@ -73,11 +88,12 @@ const HeroContainer = styled.div `
         width: 27%;
         margin-bottom: 1%;
         @media ${device.tablet} {
-            width: 60%;
+            width: 90%;
         }
         @media ${device.mobileL} {
             font-size: .8rem;
             width: 90%;
+            margin: 11% 0 3% 0;
         }
         i {
             color: var(--red);

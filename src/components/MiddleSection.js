@@ -91,12 +91,18 @@ const MiddleContainer = styled.section `
         justify-content: space-around;
         img {
             @media ${device.tablet} {
-                width: 60%;
+                width: 99%;
             }
             @media ${device.mobileL} {
                 width: 99%;
             }
         }
+        @media ${device.tablet} {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
         @media ${device.mobileL} {
             font-size: 1.6rem;
             display: flex;
@@ -111,6 +117,9 @@ const MiddleContainer = styled.section `
             align-items: center;
 
             width: 40%;
+            @media ${device.tablet} {
+                width: 90%;
+            }
             @media ${device.mobileL} {
                 width: 90%;
                 text-align: center;
@@ -149,12 +158,19 @@ const MiddleContainer = styled.section `
         justify-content: space-around;
         img {
             width: 49%;
+            @media ${device.tablet} {
+                width: 90%;
+            }
             @media ${device.mobileL} {
                 width: 99%;
             }
         }
+
         @media ${device.tablet} {
             width: 99%;
+            display: flex;
+            flex-direction: column-reverse;
+            align-items: center;
         }
         @media ${device.mobileL} {
             font-size: 1.6rem;
@@ -169,6 +185,10 @@ const MiddleContainer = styled.section `
             justify-content: center;
             
             width: 40%;
+            @media ${device.tablet} {
+                width: 90%;
+                align-items: center;
+            }
             @media ${device.mobileL} {
                 width: 90%;
                 text-align: center;
@@ -181,6 +201,7 @@ const MiddleContainer = styled.section `
                 padding-bottom: 2%;
                 @media ${device.tablet} {
                     font-size: 2rem;
+                    
                 }
                 @media ${device.mobileL} {
                     font-size: 1.6rem;
@@ -209,9 +230,17 @@ const MiddleContainer = styled.section `
         justify-content: space-around;
         img {
             width: 44%;
+            @media ${device.tablet} {
+                width: 99%;
+            }
             @media ${device.mobileL} {
                 width: 99%;
             }
+        }
+        @media ${device.tablet} {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
         }
         @media ${device.mobileL} {
             font-size: 1.6rem;
@@ -226,10 +255,14 @@ const MiddleContainer = styled.section `
             justify-content: center;
             align-items: center;
             width: 40%;
+            @media ${device.tablet} {
+                width: 90%;
+            }
             @media ${device.mobileL} {
                 width: 90%;
                 text-align: center;
             }
+            
             h2 {
                 font-family: var(--fontMain);
                 font-size: 4rem;
@@ -265,6 +298,16 @@ const MiddleContainer = styled.section `
                 font-size: 1rem;
                 margin: 2%;
                 font-weight: 600;
+                @media ${device.tablet} {
+                    font-size: 1rem;
+                    padding: 5% 8%;
+                    margin: 6% 0 11% 0;
+                }
+                @media ${device.mobileL} {
+                    font-size: 1rem;
+                    padding: 5% 8%;
+                    margin: 6% 0 11% 0;
+                }
                 &:hover {
                     background-color: var(--red);
                     transition-duration: .5s;
