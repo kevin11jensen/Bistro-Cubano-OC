@@ -136,10 +136,10 @@ const ContactSection = styled.section `
             margin-bottom: 3%;
         }
         @media ${device.mobileL} {
-            margin: 1%;
+            margin-left: 6%;
             display: flex;
             flex-direction: column;
-            align-items: center;
+            align-items: flex-start;
             width: 99%;
         }
         h5 {
@@ -173,10 +173,10 @@ const ContactSection = styled.section `
             margin-left: 15%;
         }
         @media ${device.mobileL} {
-            margin: 1%;
+            margin-left: 6%;
             display: flex;
             flex-direction: column;
-            align-items: center;
+            align-items: flex-start;
             width: 99%;
         }
         p{

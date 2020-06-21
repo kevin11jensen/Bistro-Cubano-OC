@@ -16,7 +16,7 @@ export default function Footer() {
 const FooterSection = styled.section `
     background-color: var(--altBg);
     width: 100%;
-    height: 2vh;
+    margin-top: 3%;
     overflow-x: hidden;
     p {
         text-align: center;

@@ -34,9 +34,6 @@ const MainNav = styled.nav `
         @media ${device.tablet} {
             width: 65%;
         }
-        @media ${device.mobileL} {
-            width: 50%;
-        }
     }
     div {
         display: flex;
