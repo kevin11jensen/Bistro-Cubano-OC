@@ -33,6 +33,7 @@ const MainNav = styled.nav `
         padding: 1%;
         @media ${device.tablet} {
             width: 65%;
+            padding: 9% 1%;
         }
     }
     div {

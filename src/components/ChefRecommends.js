@@ -49,6 +49,7 @@ const Recommendations = styled.section `
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    
     h1 {
         font-family: var(--fontMain);
         font-size: 3.5rem;
@@ -56,6 +57,7 @@ const Recommendations = styled.section `
         padding: 6% 8% 2% 0;
         @media ${device.tablet} {
             font-size: 3rem;
+
         }
         @media ${device.mobileL} {
             text-align: center;
@@ -68,6 +70,7 @@ const Recommendations = styled.section `
         font-size: 1.6rem;
         @media ${device.tablet} {
             font-size: 1.2rem;
+            text-align: left;
         }
         @media ${device.mobileL} {
             text-align: center;
