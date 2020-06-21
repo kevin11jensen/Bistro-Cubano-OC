@@ -39,6 +39,7 @@ const HeroContainer = styled.div `
         margin: 1% 2% 1% 2%;
         @media ${device.tablet} {
             text-align: center;
+            font-size: 3rem;
         }
         @media ${device.mobileL} {
             font-size: 1.6rem;
@@ -51,6 +52,9 @@ const HeroContainer = styled.div `
         margin: 2% 2% 6% 2%;
         text-align: center;
         letter-spacing: .3rem;
+        @media ${device.tablet} {
+            font-size: 6rem;
+        }
         @media ${device.mobileL} {
             font-size: 3rem;
             margin-bottom: 11%;
@@ -93,7 +97,7 @@ const HeroContainer = styled.div `
         }
         @media ${device.mobileL} {
             font-size: .8rem;
-            width: 90%;
+            width: 80%;
             margin: 11% 0 3% 0;
         }
         i {
