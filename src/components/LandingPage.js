@@ -1,6 +1,5 @@
 import React from 'react';
 import styled from 'styled-components';
-
 import NavBar from './Navbar';
 import HeroNav from './HeroNav';
 import Hero from './Hero';
@@ -11,6 +10,7 @@ import ChefRecommends from './ChefRecommends';
 // import Reviews from './Reviews';
 import Contact from './Contact';
 import Footer from './Footer';
+
 
 export default function LandingPage() {
     return (

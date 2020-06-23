@@ -30,6 +30,7 @@ const Nav = styled.nav `
     font-size: .8rem;
     padding: 1% 0;
     overflow-x: hidden;
+    position: static;
     @media ${device.tablet} {
         display: none;
     }

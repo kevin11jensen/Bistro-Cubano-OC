@@ -92,7 +92,7 @@ const About = styled.section `
                 font-size: 1rem;
             }
             @media ${device.mobileL} {
-                text-align: center;
+                text-align: left;
                 padding: 2%;
                 margin: 2%;
             }

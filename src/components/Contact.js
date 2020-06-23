@@ -69,7 +69,7 @@ const ContactSection = styled.section `
             margin-left: 6%;
         }
         @media ${device.mobileL} {
-            margin: 1%;
+            margin: 1% 1% 1% 12%;
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -88,6 +88,7 @@ const ContactSection = styled.section `
             }
             @media ${device.mobileL} {
                 margin-bottom: 1%;
+                margin-left: 6%;
             }
         }
         p {
@@ -112,6 +113,7 @@ const ContactSection = styled.section `
             }
             @media ${device.mobileL} {
                 width: 99%;
+                margin-left: 6%;
             }
             .directions {
                 color: var(--red);
@@ -149,9 +151,11 @@ const ContactSection = styled.section `
             margin-bottom: 6%;
             @media ${device.tablet} {
                 margin-bottom: 2%;
+                margin-left: 6%;
             }
             @media ${device.mobileL} {
                 margin-bottom: 1%;
+                margin-left: 6%;
             }
         }
         p {
@@ -160,7 +164,7 @@ const ContactSection = styled.section `
             margin-right: 2%;
             @media ${device.tablet} {
                 font-size: .8rem;
-                
+                margin-left: 6%;
             }
         }
     }
@@ -185,9 +189,11 @@ const ContactSection = styled.section `
             margin-bottom: 6%;
             @media ${device.tablet} {
                 margin-bottom: 1%;
+                margin-left: 6%;
             }
             @media ${device.mobileL} {
                 margin-bottom: 1%;
+                margin-left: 6%;
             }
         }
         a {
@@ -199,6 +205,7 @@ const ContactSection = styled.section `
             color: var(--white);
             @media ${device.tablet} {
                 font-size: .8rem;
+                margin-left: 6%;
             }
             &:hover {
                 color: var(--red);

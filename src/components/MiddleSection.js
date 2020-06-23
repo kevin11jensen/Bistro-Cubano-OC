@@ -122,7 +122,8 @@ const MiddleContainer = styled.section `
             }
             @media ${device.mobileL} {
                 width: 90%;
-                text-align: center;
+                text-align: left;
+                margin-left: 6%;
             }
             h2 {
                 font-family: var(--fontMain);
@@ -135,6 +136,8 @@ const MiddleContainer = styled.section `
                 @media ${device.mobileL} {
                     font-size: 1.6rem;
                     width: 99%;
+                    margin-left: 6%;
+                    padding-bottom: 0;
                 }
             }
             p {
@@ -147,7 +150,7 @@ const MiddleContainer = styled.section `
                 }
                 @media ${device.mobileL} {
                     font-size: .8rem;
-                    
+                    margin-left: 3%;
                 }
             }
         }
@@ -191,7 +194,8 @@ const MiddleContainer = styled.section `
             }
             @media ${device.mobileL} {
                 width: 90%;
-                text-align: center;
+                text-align: left;
+                margin-left: 6%;
             }
             h2 {
                 font-family: var(--fontMain);
@@ -205,8 +209,9 @@ const MiddleContainer = styled.section `
                 }
                 @media ${device.mobileL} {
                     font-size: 1.6rem;
-                    text-align: center;
-                    margin: 2%;
+                    
+                    margin: 2% 2% 0 0;
+                    padding-bottom: 0;
                 }
             }
             p {
@@ -260,7 +265,8 @@ const MiddleContainer = styled.section `
             }
             @media ${device.mobileL} {
                 width: 90%;
-                text-align: center;
+                text-align: left;
+                margin-left: 3%;
             }
             
             h2 {

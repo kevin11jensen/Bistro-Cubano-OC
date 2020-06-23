@@ -2,6 +2,8 @@ import React from 'react';
 import styled from 'styled-components';
 import logo from '../images/logo.png';
 import { device } from './device';
+import { HashLink as Link } from 'react-router-hash-link';
+
 
 export default function HeroNav() {
     return (
@@ -9,9 +11,15 @@ export default function HeroNav() {
             <MainNav>
                 <img src = {logo} alt = 'logo' />
                 <div>
-                    <h3>Home</h3>
-                    <h3>Menu</h3>
-                    <a href = '#about'><h3>About Us</h3></a>
+                    <Link to = '/'>
+                        <h3>Home</h3>
+                    </Link>
+                    <Link to = '/menu'>
+                        <h3>Menu</h3>
+                    </Link>
+                    <Link to = '/#about'>
+                        <h3>About Us</h3>
+                    </Link>
                     <h3>Reviews</h3>
                 </div>
             </MainNav>
@@ -28,6 +36,7 @@ const MainNav = styled.nav `
     padding-bottom: 1%;
     background-color: var(--altBg);
     overflow-x: hidden;
+    position: static;
     img {
         width: 25%;
         padding: 1%;

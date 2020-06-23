@@ -1,12 +1,12 @@
 import React from 'react';
 import styled from 'styled-components';
-import slideshowone from '../images/slide-show1.jpg';
+import slide1 from '../images/slide1.jpg';
 
 export default function ImageScroll() {
     return (
         <ImageScrollContainer>
             
-            <img src = {slideshowone} alt = 'family out to dinner' />
+            <img src = {slide1} alt = 'family out to dinner' />
         </ImageScrollContainer>
     );
 }
